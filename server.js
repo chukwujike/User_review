@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 const Review = require("./models/reviews")
 const path = require("path");
 
-const dburi = "mongodb+srv://chukwujike:freeme@review-cluster.huad07s.mongodb.net/?retryWrites=true&w=majority"
+const dburi = ""
 mongoose.connect(dburi, { useNewUrlParser: true, useUnifiedTopology: true})
     .then((result) => app.listen(3000))
     .catch((err) => console.log(err));
